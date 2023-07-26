@@ -5,7 +5,7 @@ Generate AWS SSO named profiles for `~/.aws/config`
 ## Installation
 
 ```
-pip install git+https://github.com/tom-mi/aws-sso-config-generator#subdirectory=src
+pip install git+https://github.com/mgnisia/aws-sso-config-generator#subdirectory=src
 ```
 
 ## Usage
