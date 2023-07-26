@@ -18,7 +18,7 @@ This command opens the AWS SSO login page in a browser. After successful login, 
 accounts & roles available via the given AWS SSO login and prints out configuration snippets suitable for
 `~/.aws/config`, e.g.
 ```
-[profile some-account-developer]
+[profile some-account]
 sso_start_url = https://example.awsapps.com/start
 sso_region = eu-west-1
 sso_account_id = 123456789012
@@ -27,4 +27,4 @@ region = eu-west-1
 output = json
 ```
 
-The profile names are `${account_name}-${role_name}`.
+The profile names are `${account_name}`.
